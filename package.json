@@ -5,7 +5,7 @@
 "main": "start.js",
 "scripts": {
 "start": "pm2 start start.js --deep-monitoring --attach --name mihiruk",
-"stop": "pm2 stop newAcc",
+"stop": "pm2 stop mihiruk",
 "restart": "pm2 restart mihiruk"
 },
 "dependencies": {
